@@ -5,10 +5,16 @@
 
 ## Usage
 
-### Initialization
+### Style
+```html
+<link rel="stylesheet" href="artCanvas.css" />
+```
+
+### Initialization Example
 ```javascript
 
 import { ArtCanvas } from './artCanvas.js';
+
 const canvas = new ArtCanvas({
     containerID: 'containerA',
     perspectiveStart: 'left',
