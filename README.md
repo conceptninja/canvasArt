@@ -3,6 +3,39 @@
 
 <a target="_blank" href="https://conceptninja.co.za/canvasArt/">Click here for a demo</a>
 
+## Usage
+
+### Initialization
+```javascript
+
+import { ArtCanvas } from './artCanvas.js';
+const canvas = new ArtCanvas({
+    containerID: 'containerA',
+    perspectiveStart: 'left',
+    units: 'vmin',
+    perspectiveLength: '125vmin',
+    mode: 'single',
+    singleImageWidth: '200',
+    singleImageRatio: '1x1',
+    marginAffectsPos: true,
+    mouseMove: true,
+    columns:4,
+    startOffsetZ:-105,
+    startOffsetX:30,
+    startOffsetY:-19,
+    singleImage: IMAGE_URLS[5],
+    canvasTexture:true,
+    canvasTextureImage:'images/canvas-min.jpg',
+    layout: [
+        [{cols: 3, rows: 1, items: [{margin: '3.5', height:'40', width:'127', depth:'10'}],}],
+        [{cols: 1, rows: 3, items: [{imageOffsetLeft:7, margin: '3.5', height: '127', width: '40', depth: '10'}]}],
+        [{cols: 1, rows: 3, items: [{margin: '3.5', height: '127', width: '40', depth: '10'}]}],
+        [{cols: 2, rows: 2, items: [{margin: '3.5', height: '80', width: '80', depth: '10'}]}],
+        [{cols: 3, rows: 1, items: [{imageOffsetTop:4, margin: '3.5', height:'40', width:'127', depth:'10'}],}],
+    ]
+});
+```
+
 <table class="explanationTable">
         <thead>
             <tr>
