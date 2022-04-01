@@ -1,6 +1,8 @@
 # canvasArt
 3D Canvas wall art, built using CSS3 and Javascript
 
+<a target="_blank" href="https://conceptninja.co.za/canvasArt/">Click here for a demo</a>
+
 <table class="explanationTable">
         <thead>
             <tr>
