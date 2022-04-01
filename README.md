@@ -3,6 +3,8 @@
 
 <a target="_blank" href="https://conceptninja.co.za/canvasArt/">Click here for a demo</a>
 
+<img src="example.png" />
+
 ## Usage
 
 ### Style
