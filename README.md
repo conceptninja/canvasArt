@@ -29,7 +29,7 @@ const canvas = new ArtCanvas({
     startOffsetZ:-105,
     startOffsetX:30,
     startOffsetY:-19,
-    singleImage: IMAGE_URLS[5],
+    singleImage: 'some_image_name.jpg',
     canvasTexture:true,
     canvasTextureImage:'images/canvas-min.jpg',
     layout: [
