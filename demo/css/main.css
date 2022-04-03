@@ -67,6 +67,19 @@ h1 {
 .explanationTable .noPad {
     padding:0;
 }
+.github-link {
+    color: #fff;
+    text-decoration: none;
+}
+.github-link:hover {
+    text-decoration: underline;
+}
+.github-link svg {
+    vertical-align: middle;
+}
+.github-link svg path {
+    fill: #fff;
+}
 @media(max-width: 720px) {
     .tableContainer {
         width:100%;
